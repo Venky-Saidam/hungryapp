@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# 🍽️ HungryApp (Food Delivery App)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully functional and secure food delivery app developed using the **MERN stack**. HungryApp features user authentication for secure access, personalized order history, and a dynamic cart for adding food items—enhancing user engagement and convenience. The app offers an intuitive interface for seamless browsing, ordering, and food delivery.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌟 Commands for Running the App
 
-### `npm start`
+- ⚛️ **npx create-react-app my-app**  
+  Used for building the React app. Make sure to run this command in your project directory (for initial setup).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ⚛️ **npm start**  
+  After creating the React app and installing dependencies, run this command to start the frontend (React).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ⚛️ **nodemon index.js**  
+  (Development) Run this after navigating into the backend directory (`cd backend`). This command activates the backend and connects the database to the React app.
 
-### `npm test`
+- 🚀 **node index.js**  
+  (Production) Used in deployment environments like Render. Render will run this automatically via `npm start`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🌟 Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ⚛️ **Tech Stack:** React.js, MongoDB, Node.js, Express, Bootstrap v5
+- 🔐 **Authentication:** Secure login and registration using JSON Web Tokens (JWT) and bcrypt for encrypted password storage
+- 🛒 **Smart Cart:** If you add the same type of food item to the cart, it automatically updates the quantity instead of adding a new element
+- ✍️ **Add to Cart:** Select the food items and quantity you want to order and add them to your cart
+- 🗑️ **Remove from Cart:** Delete food items from your cart with the delete button
+- 💬 **Order History:** After checking out, view your previous orders in the "My Orders" section
+- 🛒🔢 **Quantity of Cart:** When you add an item, the quantity is shown on the cart
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Frontend:** React.js, Bootstrap v5
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
