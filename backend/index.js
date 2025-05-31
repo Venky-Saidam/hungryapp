@@ -8,10 +8,17 @@ const port = process.env.PORT || 5000;
 const mongoDB = require("./db");
 mongoDB();
 
-const cors = require('cors');
+const allowedOrigins = [
+  "https://hungryapp-frontend.vercel.app",
+  // Add Vercel preview URL pattern
+  /https:\/\/hungryapp-frontend-.*-venky-saidams-projects\.vercel\.app/
+];
+
 app.use(cors({
-  origin: process.env.FRONTEND_URL,
-  credentials: true
+  origin: allowedOrigins,
+  credentials: true,
+  methods: ["GET", "POST", "PUT", "DELETE"], // Explicitly allow needed methods
+  allowedHeaders: ["Content-Type", "Authorization"]
 }));
 
 app.use(express.json());
