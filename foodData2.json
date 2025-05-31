@@ -1,0 +1,212 @@
+[
+  {
+    "CategoryName": "Pizza",
+    "name": "Mix Veg Pizza",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg",
+    "options": [{ "regular": "100", "medium": "200", "large": "300" }],
+    "description": "A delightful pizza topped with fresh vegetables and mozzarella."
+  },
+  {
+    "CategoryName": "Pizza",
+    "name": "Chicken Cheese Pizza",
+    "img": "https://media.istockphoto.com/id/1074109872/photo/double-topping-pizza-on-the-wooden-desk-isolated.jpg",
+    "options": [{ "regular": "120", "medium": "230", "large": "350" }],
+    "description": "Succulent chicken and cheese layered on crispy crust."
+  },
+  {
+    "CategoryName": "Pizza",
+    "name": "Margherita Pizza",
+    "img": "https://cdn.pixabay.com/photo/2022/09/24/18/44/pizza-7477182_1280.jpg",
+    "options": [{ "regular": "90", "medium": "180", "large": "280" }],
+    "description": "Classic tomato, mozzarella, and basil pizza."
+  },
+  {
+    "CategoryName": "Pizza",
+    "name": "Pepperoni Pizza",
+    "img": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+    "options": [{ "regular": "140", "medium": "250", "large": "370" }],
+    "description": "Loaded with spicy pepperoni and cheese."
+  },
+  {
+    "CategoryName": "Pizza",
+    "name": "Paneer Tandoori Pizza",
+    "img": "https://cdn.pixabay.com/photo/2021/09/27/19/13/food-6661695_1280.jpg",
+    "options": [{ "regular": "110", "medium": "210", "large": "320" }],
+    "description": "Fusion pizza with Indian-style paneer tikka toppings."
+  },
+  {
+    "CategoryName": "Biryani/Rice",
+    "name": "Chicken Biryani",
+    "img": "https://cdn.pixabay.com/photo/2021/06/01/08/45/biryani-6302296_1280.jpg",
+    "options": [{ "half": "170", "full": "300" }],
+    "description": "Aromatic rice with spicy chicken and herbs."
+  },
+  {
+    "CategoryName": "Biryani/Rice",
+    "name": "Veg Biryani",
+    "img": "https://media.istockphoto.com/id/1363306527/photo/veg-biryani.jpg",
+    "options": [{ "half": "150", "full": "260" }],
+    "description": "Delicious rice dish with assorted vegetables and spices."
+  },
+  {
+    "CategoryName": "Biryani/Rice",
+    "name": "Prawns Biryani",
+    "img": "https://cdn.pixabay.com/photo/2022/10/20/06/30/biryani-7533602_1280.jpg",
+    "options": [{ "half": "190", "full": "330" }],
+    "description": "Fragrant rice cooked with prawns and South Indian spices."
+  },
+  {
+    "CategoryName": "Biryani/Rice",
+    "name": "Fish Biryani",
+    "img": "https://media.istockphoto.com/id/1409942571/photo/king-fish-biryani-with-raita.jpg",
+    "options": [{ "half": "200", "full": "320" }],
+    "description": "King fish layered with rice and saffron-infused gravy."
+  },
+  {
+    "CategoryName": "Biryani/Rice",
+    "name": "Egg Fried Rice",
+    "img": "https://cdn.pixabay.com/photo/2015/04/08/13/13/fried-rice-712692_1280.jpg",
+    "options": [{ "half": "110", "full": "180" }],
+    "description": "Stir-fried rice with scrambled egg and vegetables."
+  },
+  {
+    "CategoryName": "Starter",
+    "name": "Paneer Tikka",
+    "img": "https://media.istockphoto.com/id/1186759790/photo/paneer-tikka-in-black-bowl.jpg",
+    "options": [{ "half": "170", "full": "250" }],
+    "description": "Grilled marinated paneer served with mint chutney."
+  },
+  {
+    "CategoryName": "Starter",
+    "name": "Chicken Tikka",
+    "img": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=500&q=60",
+    "options": [{ "half": "170", "full": "300" }],
+    "description": "Tandoor-grilled chicken in traditional spices."
+  },
+  {
+    "CategoryName": "Starter",
+    "name": "Veg Spring Rolls",
+    "img": "https://cdn.pixabay.com/photo/2019/06/04/21/44/spring-rolls-4259285_1280.jpg",
+    "options": [{ "half": "100", "full": "180" }],
+    "description": "Crispy rolls filled with vegetables and served with sauce."
+  },
+  {
+    "CategoryName": "Starter",
+    "name": "Chicken 65",
+    "img": "https://cdn.pixabay.com/photo/2020/11/16/05/46/chicken-65-5747550_1280.jpg",
+    "options": [{ "half": "160", "full": "270" }],
+    "description": "South Indian spicy deep-fried chicken chunks."
+  },
+  {
+    "CategoryName": "Starter",
+    "name": "Crispy Corn",
+    "img": "https://cdn.pixabay.com/photo/2021/03/28/05/25/corn-6130924_1280.jpg",
+    "options": [{ "half": "110", "full": "190" }],
+    "description": "Crispy fried corn tossed in tangy sauce."
+  },
+  {
+    "CategoryName": "Dessert",
+    "name": "Gulab Jamun",
+    "img": "https://cdn.pixabay.com/photo/2018/09/06/13/24/gulab-jamun-3658826_1280.jpg",
+    "options": [{ "1 piece": "30", "2 pieces": "50" }],
+    "description": "Sweet dumplings soaked in rose-flavored sugar syrup."
+  },
+  {
+    "CategoryName": "Dessert",
+    "name": "Rasgulla",
+    "img": "https://cdn.pixabay.com/photo/2020/09/13/15/42/rasgulla-5568487_1280.jpg",
+    "options": [{ "1 piece": "30", "2 pieces": "50" }],
+    "description": "Soft and spongy white balls soaked in sugar syrup."
+  },
+  {
+    "CategoryName": "Dessert",
+    "name": "Ice Cream Sundae",
+    "img": "https://cdn.pixabay.com/photo/2017/08/10/07/32/ice-cream-2615201_1280.jpg",
+    "options": [{ "small": "60", "medium": "100", "large": "140" }],
+    "description": "Layers of ice cream, fruit, and syrup topped with nuts."
+  },
+  {
+    "CategoryName": "Dessert",
+    "name": "Chocolate Brownie",
+    "img": "https://cdn.pixabay.com/photo/2021/06/24/03/54/brownies-6361240_1280.jpg",
+    "options": [{ "1 pc": "70", "2 pc": "120" }],
+    "description": "Rich and gooey chocolate brownie served warm."
+  },
+  {
+    "CategoryName": "Dessert",
+    "name": "Mango Falooda",
+    "img": "https://cdn.pixabay.com/photo/2022/07/15/10/52/mango-falooda-7322895_1280.jpg",
+    "options": [{ "glass": "90" }],
+    "description": "Chilled dessert drink with mango pulp, vermicelli, and basil seeds."
+  },
+  {
+    "CategoryName": "Drinks",
+    "name": "Masala Chai",
+    "img": "https://cdn.pixabay.com/photo/2020/01/24/12/56/chai-4789955_1280.jpg",
+    "options": [{ "cup": "20" }],
+    "description": "Indian-style spiced tea served hot."
+  },
+  {
+    "CategoryName": "Drinks",
+    "name": "Cold Coffee",
+    "img": "https://cdn.pixabay.com/photo/2016/07/22/09/59/coffee-1534026_1280.jpg",
+    "options": [{ "glass": "60" }],
+    "description": "Chilled coffee blended with milk and sugar."
+  },
+  {
+    "CategoryName": "Drinks",
+    "name": "Sweet Lassi",
+    "img": "https://cdn.pixabay.com/photo/2021/10/25/14/39/lassi-6740326_1280.jpg",
+    "options": [{ "glass": "50" }],
+    "description": "Sweet yogurt-based drink, cooling and refreshing."
+  },
+  {
+    "CategoryName": "Drinks",
+    "name": "Mango Shake",
+    "img": "https://cdn.pixabay.com/photo/2020/05/28/14/11/mango-shake-5232193_1280.jpg",
+    "options": [{ "glass": "70" }],
+    "description": "Creamy mango shake topped with dry fruits."
+  },
+  {
+    "CategoryName": "Drinks",
+    "name": "Buttermilk",
+    "img": "https://cdn.pixabay.com/photo/2022/07/14/05/50/buttermilk-7320689_1280.jpg",
+    "options": [{ "glass": "20" }],
+    "description": "Lightly spiced yogurt-based digestive drink."
+  },
+  {
+    "CategoryName": "Pizza",
+    "name": "Farmhouse Pizza",
+    "img": "https://cdn.pixabay.com/photo/2021/01/26/12/02/pizza-5950584_1280.jpg",
+    "options": [{ "regular": "110", "medium": "210", "large": "310" }],
+    "description": "Loaded with mushrooms, capsicum, onions, and tomato."
+  },
+  {
+    "CategoryName": "Biryani/Rice",
+    "name": "Hyderabadi Mutton Biryani",
+    "img": "https://cdn.pixabay.com/photo/2020/02/03/05/03/mutton-4813646_1280.jpg",
+    "options": [{ "half": "220", "full": "360" }],
+    "description": "Slow-cooked mutton biryani with rich spice blend."
+  },
+  {
+    "CategoryName": "Starter",
+    "name": "Hakka Noodles",
+    "img": "https://cdn.pixabay.com/photo/2017/03/27/14/56/noodles-2178867_1280.jpg",
+    "options": [{ "half": "100", "full": "180" }],
+    "description": "Chinese-style stir-fried noodles with veggies."
+  },
+  {
+    "CategoryName": "Starter",
+    "name": "Manchurian Balls",
+    "img": "https://cdn.pixabay.com/photo/2021/01/05/16/16/manchurian-5892813_1280.jpg",
+    "options": [{ "half": "120", "full": "200" }],
+    "description": "Crispy vegetable balls in tangy Manchurian sauce."
+  },
+  {
+    "CategoryName": "Dessert",
+    "name": "Kesar Rasmalai",
+    "img": "https://cdn.pixabay.com/photo/2020/12/28/09/48/rasmalai-5865127_1280.jpg",
+    "options": [{ "2 pcs": "70" }],
+    "description": "Creamy saffron-infused milk dessert."
+  }
+]
