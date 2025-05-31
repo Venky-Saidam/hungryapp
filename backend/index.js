@@ -8,9 +8,10 @@ const port = process.env.PORT || 5000;
 const mongoDB = require("./db");
 mongoDB();
 
+const cors = require('cors');
 app.use(cors({
-    origin: process.env.FRONTEND_URL,
-    credentials: true // if needed
+  origin: process.env.FRONTEND_URL,
+  credentials: true
 }));
 
 app.use(express.json());
